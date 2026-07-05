@@ -1663,11 +1663,11 @@ function AdminApp() {
                         <Mail size={14} aria-hidden="true" />
                         Email
                       </a>
-                      
+                      <a
                         href={`https://wa.me/${String(selectedInquiry.phone).replace(/\D/g, '')}`}
                         target="_blank"
                         rel="noreferrer"
-                      <a>
+                      >
                         <PhoneCall size={14} aria-hidden="true" />
                         WhatsApp
                       </a>
